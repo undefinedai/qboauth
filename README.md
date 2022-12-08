@@ -46,7 +46,7 @@ Quickbooks will authenticate the user and redirect to the `redirectURL` you prov
 tokens, err := c.Exchange(code)
 ```
 
-You'll receive a `qboauth.Tokens`:
+You'll receive `qboauth.Tokens`:
 
 ```golang
 type Tokens struct {
